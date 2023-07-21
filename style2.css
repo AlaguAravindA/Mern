@@ -1,0 +1,55 @@
+
+/* i want border for class para */
+.para2{
+   
+    border: 1px solid rgb(246, 4, 4);
+        border-radius: 5%;
+    width: 450px;
+    margin-left: 30px;
+    color: aliceblue;
+    backdrop-filter: brightness(20%);
+    opacity: 0.3;
+    }
+    .para2:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    /* I waant to give space between two para */
+    .para1{
+        border: 1px solid rgb(246, 4, 4);
+        border-radius: 5%;
+        width: 450px;
+        margin-top: 10px;
+        color: aliceblue;
+        backdrop-filter: brightness(20%);
+        opacity: 0.3;
+    }
+    .para1:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+        .para3{
+            border: 1px solid rgb(246, 4, 4);
+            border-radius: 5%;
+            width: 450px;
+            margin-top: 10px;
+            margin-left: 30px;
+            color: aliceblue;
+            backdrop-filter: brightness(20%);
+            opacity: 0.3;
+        }
+        .para3:hover{
+            opacity: 1;
+            cursor: pointer;
+        }
+        a:link{
+            text-decoration: none;
+            
+           
+        }
+        a:hover{
+           
+            font-weight: bolder;
+            font-size: large;
+
+        }

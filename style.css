@@ -1,0 +1,28 @@
+body{
+    background-image: url("img/wall.jpg");
+   
+    
+}
+h1{
+    text-decoration: dashed;
+}
+.container{
+    color: aliceblue;
+    backdrop-filter: brightness(30%);
+   
+}
+.para{
+    backdrop-filter: brightness(30%);
+     
+
+}
+a:link{
+    
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(207, 86, 38);
+    font-size: large;
+    font-weight: bold;
+}
+
