@@ -19,32 +19,35 @@
         <i style="color: red; font-size: small;">The fileds with * are required</i> 
        <p style="color:rgb(222, 209, 209); text-align: justify  ;">
 
-         Name*:<input type="text" id="name" required style="margin-left:20px ; width: 200px; height:20px;" ><br>
-           Email*: <input type="email" name="email" id="email" required style="margin-left:20px ;"><br>
-           
-           Password*: <input type="password" name="pass" id="pass"><br>
-           <br>Ph number: <input type="number" name="" id=""  style="margin-bottom: 20px; margin-left: 10px; width: 200px; border-radius: 7px; height: 20px;"><br>
-         
-           <i style="color: Red; font-size: smaller;">
-            Re-Enter the <br>
-            
-        </i>
-        Password*: <input type="password" name="repass" id="pass"><br>
+        <label for="name" style="margin-right: 90px;">Name*</label>
+        <input type="text" id="name" required> <br>
         
-      
+        <label for="email" style="margin-right: 90px;">Email*</label>
+        <input type="email" id="email" required> <br>
+        
+        <label for="pass" style="margin-right: 67px;">Password*</label> 
 
-            How did you know about us? 
-      
-        <select name="websited" class="web" style="margin-bottom: 20px;">
+        <input type="password" id="pass"> <br>
+        
+        <label for="repass"style="margin-right: 15px;">Re-Enter Password*</label>
+        <input type="password" id="pass"><br>
+        
+        <label for="websited"style="margin-right: 20px;">How did you know about us?*</label>
+        <select name="websited" class="websited">
             <option value="Google">Google</option>
             <option value="Instagram">Instagram</option>
             <option value="Facebook">Facebook</option>
+            <option value="Pinterest">Pinterest</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="YouTube">YouTube</option>
         </select>
+        <br>
         
-      
+        <label for="ans"style="margin-right: 20px;">Liked our Website??</label>
+        <input type="radio" name="ans" id="ans1" value="Yes"> Yes
+        <input type="radio" name="ans" id="ans2" value="No"> No
+        <input type="radio" name="ans" id="ans3" value="A little bit"> A little bit
         
-       <br> Liked our Website?? <br>
-        <input type="radio" name="ans" class="ans">Yes <input type="radio" name="ans" id="23"> No <input type="radio" name="ans" id="23"> A little bit
     </p>
     <button class="btn" type="submit" formaction="Last.html" >Join Us </button>
 </p>
