@@ -9,6 +9,7 @@
     color: aliceblue;
     backdrop-filter: brightness(20%);
     opacity: 0.3;
+    text-align: justify;
     }
     .para2:hover{
         opacity: 1;
@@ -23,6 +24,7 @@
         color: aliceblue;
         backdrop-filter: brightness(20%);
         opacity: 0.3;
+        text-align: justify;
     }
     .para1:hover{
         opacity: 1;
@@ -37,6 +39,7 @@
             color: aliceblue;
             backdrop-filter: brightness(20%);
             opacity: 0.3;
+            text-align: justify;
         }
         .para3:hover{
             opacity: 1;
